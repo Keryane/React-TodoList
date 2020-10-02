@@ -1,0 +1,82 @@
+.isDone{
+    text-decoration: line-through;
+}
+
+body{
+    background-color: #010e37;
+    color: #dfeeea;
+}
+.todolist{
+    width: 70%;
+    max-height: 80vh;
+    margin-top:10vh;
+    margin-left:15%;
+    border: 3px solid #dfeeea;
+    border-radius:20px;
+    font-size:1.4em;
+    
+}
+.todolist li{
+    list-style: none;
+    
+}
+label{
+    cursor: pointer;
+}
+
+
+input[type="checkbox"]{
+    opacity: 0;
+}
+button[type="submit"]{
+    background-color: #010e37;;
+    border:2px solid #dfeeea;
+    border-radius: 10px;
+    color: #dfeeea;
+    margin-left:10px;
+    font-size:1.2em;
+   
+}
+button[type="submit"]:hover{
+    cursor: pointer;
+}
+button[type="submit"]:focus{
+    background-color: #010e37;;
+    border:2px solid #dfeeea;
+    border-radius: 10px;
+    color: #dfeeea;
+    margin-left:10px;
+    font-size:1.2em;
+    outline:none;
+
+}
+.formtodo{
+    display: flex;
+    justify-content:center ;
+    margin-top:5vh;
+    
+}
+.formtodo input{
+    width: 30%;
+    height: 5vh;
+    font-size:1.5em;
+    padding: 0 20px;
+    
+}
+
+.wrapp{
+    width: 100%;
+}
+.deletebtn{
+    margin-left:20px;
+    background-color:#010e37;
+    color: #dfeeea;
+    border-color:#dfeeea;
+    border-width:2px;
+    border-radius:5px;
+}
+
+.deletebtn:selected{
+    border:none;
+}
+
